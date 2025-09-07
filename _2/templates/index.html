@@ -1,0 +1,30 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Disease Detective</title>
+  <link rel="stylesheet" href="{{ url_for('static', filename='site.css') }}">
+</head>
+<body>
+  <input id="hc" type="checkbox" hidden>
+  <div class="container">
+    <div class="card">
+      <div class="grid cols-2">
+        <div class="content">
+          <h1>Disease Detective</h1> <!-- Fixed typo "Detectiver" to "Detective" -->
+          <p class="description">Guess the disease based on symptom patterns. Answer a few smart questions, then make your call.</p>
+          <form action="/start" method="post" class="form-group">
+            <button class="btn" type="submit">Play Now</button>
+            <label class="toggle"><input type="checkbox" onclick="document.getElementById('hc').click()"> High Contrast</label>
+          </form>
+          <p class="tip">Tip: Works great on mobile. No sign-in required.</p>
+        </div>
+        <div class="mascot">
+          <img src="{{ url_for('static', filename='doctor.png') }}" alt="Doctor mascot" class="mascot-img">
+        </div>
+      </div>
+    </div>
+  </div>
+</body>
+</html>

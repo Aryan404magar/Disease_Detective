@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Disease Detective - Result</title>
+    <style>
+        body {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            background: linear-gradient(135deg, #e0f7fa, #f0f4f8);
+            margin: 0;
+            padding: 20px;
+            min-height: 100vh;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+        .container {
+            background: white;
+            padding: 30px;
+            border-radius: 15px;
+            box-shadow: 0 8px 16px rgba(0, 0, 0, 0.1);
+            text-align: center;
+            max-width: 500px;
+            width: 100%;
+        }
+        h2 {
+            color: #2c3e50;
+            margin-bottom: 20px;
+        }
+        .result-text {
+            color: #34495e;
+            margin: 10px 0;
+            font-size: 1.2em;
+        }
+        .correct { color: #27ae60; }
+        .incorrect { color: #e74c3c; }
+        .details {
+            text-align: left;
+            margin-top: 20px;
+            padding: 15px;
+            background: #f9f9f9;
+            border-radius: 10px;
+        }
+        .details h3 {
+            color: #2c3e50;
+            margin-bottom: 10px;
+        }
+        .details p {
+            margin: 5px 0;
+        }
+        .play-again {
+            margin-top: 20px;
+        }
+        .play-again button {
+            padding: 10px 20px;
+            background: #3498db;
+            color: white;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+            transition: background 0.3s;
+        }
+        .play-again button:hover {
+            background: #2980b9;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h2>Result</h2>
+        {% if result.correct %}
+            <p class="result-text correct">Congratulations! Your guess was correct!</p>
+        {% else %}
+            <p class="result-text incorrect">Sorry, your guess was incorrect.</p>
+            <p class="result-text">The correct disease was: <strong>{{ result.target }}</strong></p>
+            <p class="result-text">Your guess: <strong>{{ result.user_guess }}</strong></p>
+        {% endif %}
+        <div class="details">
+            <h3>About {{ result.target }}:</h3>
+            <p>{{ description | safe }}</p>
+            <h3>Preventive Measures for {{ result.target }}:</h3>
+            <p>{{ preventive_measures | safe }}</p>
+        </div>
+        <div class="play-again">
+            <form action="/start" method="post">
+                <button type="submit">Play Again</button>
+            </form>
+        </div>
+    </div>
+</body>
+</html>

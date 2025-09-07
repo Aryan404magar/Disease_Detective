@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Medical Akinator</title>
+    <style>
+        body { background-color: #fff9e6; font-family: Arial, sans-serif; margin: 0; padding: 0; display: flex; justify-content: center; align-items: center; min-height: 100vh; }
+        .container { background-color: white; padding: 20px; border-radius: 10px; box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); width: 90%; max-width: 800px; text-align: center; display: flex; align-items: center; justify-content: space-around; }
+        h1 { color: #4a90e2; margin-bottom: 20px; font-size: 2.5em; }
+        .doctor-img { max-width: 300px; height: auto; border-radius: 10px; }
+        .play-button { background-color: #50c878; color: white; border: none; padding: 15px 30px; border-radius: 10px; font-size: 1.5em; cursor: pointer; transition: transform 0.3s, background-color 0.3s; }
+        .play-button:hover { transform: scale(1.1); background-color: #3da85e; }
+        @media (max-width: 600px) { .container { flex-direction: column; padding: 15px; } .doctor-img { max-width: 200px; } .play-button { font-size: 1.2em; padding: 10px 20px; } }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <img src="{{ url_for('static', filename='doctor.png') }}" alt="Cartoon Doctor" class="doctor-img">
+        <div>
+            <h1>Welcome to Medical Akinator!</h1>
+            <p>Guess the disease with our fun doctor assistant!</p>
+            <a href="{{ url_for('play') }}" class="play-button">Play Now</a>
+        </div>
+    </div>
+</body>
+</html>

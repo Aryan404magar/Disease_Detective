@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Disease Detective - Ask Questions</title>
+    <style>
+        body {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            background: linear-gradient(135deg, #e0f7fa, #f0f4f8);
+            margin: 0;
+            padding: 20px;
+            min-height: 100vh;
+            display: flex;
+            justify-content: center;
+            align-items: flex-start;
+        }
+        .container {
+            background: white;
+            padding: 30px;
+            border-radius: 15px;
+            box-shadow: 0 8px 16px rgba(0, 0, 0, 0.1);
+            width: 100%;
+            max-width: 800px;
+            margin-top: 20px;
+        }
+        h2 {
+            color: #2c3e50;
+            text-align: center;
+            margin-bottom: 20px;
+            font-size: 2em;
+        }
+        .question-list {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+            gap: 15px;
+            margin-bottom: 20px;
+        }
+        .question-card {
+            background: #ecf0f1;
+            padding: 15px;
+            border-radius: 10px;
+            transition: transform 0.3s, box-shadow 0.3s;
+            cursor: pointer;
+            text-align: center;
+        }
+        .question-card:hover {
+            transform: translateY(-5px);
+            box-shadow: 0 6px 12px rgba(0, 0, 0, 0.15);
+        }
+        .question-card p {
+            color: #34495e;
+            margin: 0;
+            font-size: 1.1em;
+        }
+        .answers {
+            margin-top: 20px;
+            padding: 15px;
+            background: #fff;
+            border-radius: 10px;
+            border-left: 5px solid #3498db;
+        }
+        .answers p {
+            color: #2c3e50;
+            margin: 10px 0;
+            line-height: 1.5;
+        }
+        .guess-section {
+            margin-top: 20px;
+            text-align: center;
+        }
+        .guess-section input {
+            padding: 10px;
+            width: 200px;
+            border: 1px solid #ddd;
+            border-radius: 5px;
+            margin-right: 10px;
+        }
+        .guess-section button {
+            padding: 10px 20px;
+            background: #3498db;
+            color: white;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+            transition: background 0.3s;
+        }
+        .guess-section button:hover {
+            background: #2980b9;
+        }
+        @media (max-width: 600px) {
+            .container {
+                padding: 15px;
+            }
+            .question-list {
+                grid-template-columns: 1fr;
+            }
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h2>Ask a Question</h2>
+        <div class="question-list">
+            {% for q in questions %}
+                <div class="question-card" onclick="askQuestion('{{ q.id }}')">
+                    <p>{{ q.text }}</p>
+                </div>
+            {% endfor %}
+        </div>
+        <div class="answers" id="answers">
+            {% for a in asked %}
+                <p>{{ a.text }}: <strong>{{ a.answer }}</strong></p>
+            {% endfor %}
+        </div>
+        <div class="guess-section">
+            <form action="/guess" method="post">
+                <input type="text" name="guess" placeholder="Enter your guess">
+                <button type="submit">Submit Guess</button>
+            </form>
+        </div>
+    </div>
+
+    <script>
+        function askQuestion(qId) {
+            fetch('/ask', {
+                method: 'POST',
+                headers: { 'Content-Type': 'application/json' },
+                body: JSON.stringify({ q_id: qId })
+            })
+            .then(response => response.json())
+            .then(data => {
+                if (data.answer) {
+                    const answersDiv = document.getElementById('answers');
+                    answersDiv.innerHTML += `<p>${data.text}: <strong>${data.answer}</strong></p>`;
+                }
+            });
+        }
+    </script>
+</body>
+</html>

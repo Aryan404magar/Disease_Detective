@@ -1,0 +1,351 @@
+
+Disease,Fever,Cough,Fatigue,Difficulty Breathing,Age,Gender,Blood Pressure,Cholesterol Level,Outcome Variable,Height_cm,Weight_kg,BMI,Smoking_Status,Alcohol_Consumption,Physical_Activity_Level,Systolic_BP,Diastolic_BP,Temperature_F,Heart_Rate,Respiratory_Rate,Blood_Sugar_mg_dL,Cholesterol_mg_dL
+Influenza,Yes,No,Yes,Yes,19,Female,Low,Normal,Positive,168.5,68.5,24.1,Non-Smoker,None,Active,93,60,100.4,102,22,95,175
+Common Cold,No,Yes,Yes,No,25,Female,Normal,Normal,Negative,164.0,70.6,26.2,Current Smoker,Moderate,Moderate,124,80,97.1,85,19,94,174
+Eczema,No,Yes,Yes,No,25,Female,Normal,Normal,Negative,169.5,88.8,30.9,Current Smoker,None,Active,122,70,97.7,101,12,78,191
+Asthma,Yes,Yes,No,Yes,25,Male,Normal,Normal,Positive,187.2,99.6,28.4,Non-Smoker,None,Moderate,126,75,100.7,97,21,70,195
+Asthma,Yes,Yes,No,Yes,25,Male,Normal,Normal,Positive,173.1,73.0,24.4,Non-Smoker,Moderate,Active,113,73,103.8,105,26,91,186
+Eczema,Yes,No,No,No,25,Female,Normal,Normal,Positive,163.4,66.5,24.9,Non-Smoker,None,Sedentary,125,84,102.0,85,15,118,192
+Influenza,Yes,Yes,Yes,Yes,25,Female,Normal,Normal,Positive,176.1,65.1,21.0,Non-Smoker,Moderate,Active,124,75,101.1,83,27,91,194
+Influenza,Yes,Yes,Yes,Yes,25,Female,Normal,Normal,Positive,170.4,72.4,24.9,Non-Smoker,None,Moderate,124,83,102.1,91,30,113,171
+Hyperthyroidism,No,Yes,No,No,28,Female,Normal,Normal,Negative,161.7,62.4,23.8,Non-Smoker,Moderate,Sedentary,120,76,97.3,78,14,88,195
+Hyperthyroidism,No,Yes,No,No,28,Female,Normal,Normal,Negative,168.8,74.9,26.3,Non-Smoker,None,Moderate,118,79,97.9,88,17,112,184
+Asthma,Yes,No,No,Yes,28,Male,High,Normal,Positive,171.3,63.6,21.7,Non-Smoker,Moderate,Moderate,155,94,102.3,106,28,80,174
+Allergic Rhinitis,No,Yes,Yes,No,29,Female,Normal,Low,Negative,161.7,70.8,27.1,Non-Smoker,None,Moderate,129,82,98.0,108,12,99,155
+Anxiety Disorders,No,Yes,No,No,29,Female,Normal,High,Negative,166.7,86.5,31.1,Non-Smoker,None,Moderate,119,71,97.8,61,12,87,239
+Common Cold,No,No,No,No,29,Female,Low,Normal,Negative,151.6,56.5,24.6,Former Smoker,None,Moderate,92,70,99.0,76,19,173,175
+Diabetes,No,No,No,No,29,Male,Low,Normal,Negative,161.2,69.1,26.6,Current Smoker,Moderate,Sedentary,90,65,98.8,70,14,77,175
+Gastroenteritis,No,Yes,No,No,29,Female,Normal,Normal,Negative,161.1,72.0,27.8,Non-Smoker,Moderate,Moderate,122,75,98.2,70,16,111,196
+Pancreatitis,Yes,No,No,No,29,Female,High,Normal,Negative,157.9,58.3,23.4,Current Smoker,None,Moderate,156,102,102.1,100,12,77,187
+Rheumatoid Arthritis,No,Yes,Yes,Yes,29,Female,High,High,Negative,167.2,72.4,25.9,Non-Smoker,Moderate,Moderate,158,99,98.2,95,24,182,237
+Depression,Yes,Yes,Yes,Yes,29,Male,High,Normal,Positive,167.7,70.5,25.1,Current Smoker,Moderate,Moderate,174,103,100.4,81,30,191,173
+Liver Cancer,Yes,Yes,Yes,Yes,29,Female,Normal,Normal,Positive,155.1,61.1,25.4,Current Smoker,Moderate,Active,128,74,101.3,81,25,91,186
+Stroke,Yes,Yes,Yes,Yes,29,Female,Normal,Normal,Positive,175.3,67.3,21.9,Non-Smoker,None,Moderate,114,73,99.7,102,27,98,194
+Urinary Tract Infection,Yes,Yes,Yes,No,29,Male,High,High,Positive,173.2,75.3,25.1,Non-Smoker,Moderate,Sedentary,160,99,101.6,87,14,98,233
+Dengue Fever,Yes,No,Yes,No,30,Female,Normal,Normal,Negative,165.5,73.9,27.0,Non-Smoker,None,Active,114,73,101.9,92,14,72,183
+Dengue Fever,Yes,No,Yes,No,30,Female,Normal,Normal,Negative,155.0,74.0,30.8,Non-Smoker,None,Moderate,115,79,100.5,89,20,77,182
+Eczema,No,Yes,Yes,No,30,Male,High,High,Negative,170.6,84.0,28.8,Current Smoker,High,Moderate,143,96,98.9,87,15,99,226
+Gastroenteritis,Yes,Yes,Yes,No,30,Male,High,High,Negative,175.9,104.0,33.6,Non-Smoker,None,Moderate,178,107,103.6,109,15,97,263
+Hepatitis,Yes,Yes,Yes,Yes,30,Male,High,Normal,Negative,165.8,60.3,21.9,Non-Smoker,Moderate,Active,174,90,102.7,83,26,95,192
+Kidney Cancer,No,No,Yes,No,30,Male,Normal,Normal,Negative,178.0,90.3,28.5,Current Smoker,Moderate,Moderate,113,75,98.1,94,13,96,184
+Migraine,Yes,No,No,No,30,Female,Normal,Normal,Negative,160.8,66.5,25.7,Former Smoker,Moderate,Sedentary,118,75,103.4,109,19,71,188
+Migraine,No,Yes,Yes,No,30,Female,Normal,Normal,Negative,163.0,89.6,33.8,Non-Smoker,Moderate,Moderate,123,81,97.3,80,17,86,200
+Muscular Dystrophy,No,No,Yes,No,30,Male,High,High,Negative,170.2,63.0,21.8,Non-Smoker,None,Moderate,170,109,98.6,90,14,97,262
+Sinusitis,No,Yes,Yes,No,30,Male,Normal,Normal,Negative,189.8,78.0,21.6,Non-Smoker,None,Sedentary,113,74,97.2,86,20,93,184
+Ulcerative Colitis,Yes,Yes,No,No,30,Female,Normal,Normal,Negative,164.9,61.5,22.6,Non-Smoker,None,Sedentary,121,79,103.1,96,16,94,181
+Ulcerative Colitis,No,Yes,Yes,No,30,Female,Normal,Normal,Negative,157.6,45.0,18.1,Former Smoker,None,Moderate,116,72,97.6,106,19,78,172
+Asthma,Yes,Yes,No,Yes,30,Female,Normal,Normal,Positive,170.8,66.8,22.9,Non-Smoker,None,Moderate,123,77,103.4,99,26,74,186
+Asthma,Yes,Yes,No,Yes,30,Female,Normal,Normal,Positive,156.5,53.8,22.0,Non-Smoker,None,Active,119,85,103.7,103,27,99,172
+Asthma,Yes,Yes,Yes,Yes,30,Female,Normal,Normal,Positive,166.5,70.9,25.6,Non-Smoker,None,Sedentary,125,75,100.2,97,26,125,188
+Bipolar Disorder,No,No,Yes,No,30,Female,High,High,Positive,151.3,60.3,26.4,Non-Smoker,None,Sedentary,170,99,97.9,101,14,102,239
+Bronchitis,Yes,Yes,No,Yes,30,Female,Low,Normal,Positive,155.7,78.8,32.5,Current Smoker,None,Moderate,98,65,103.9,108,21,81,173
+Bronchitis,Yes,Yes,Yes,Yes,30,Male,High,High,Positive,176.6,89.8,28.8,Current Smoker,Moderate,Sedentary,148,102,101.7,101,26,76,254
+Bronchitis,Yes,Yes,Yes,Yes,30,Male,High,High,Positive,180.9,74.3,22.7,Non-Smoker,Moderate,Moderate,175,100,103.4,91,22,97,251
+Cerebral Palsy,No,No,Yes,Yes,30,Female,Normal,Normal,Positive,166.2,59.1,21.4,Non-Smoker,Moderate,Moderate,129,71,98.2,88,22,95,195
+Colorectal Cancer,No,No,Yes,No,30,Female,Normal,High,Positive,164.2,72.7,27.0,Non-Smoker,None,Active,120,78,97.8,84,13,128,267
+Eczema,Yes,No,No,No,30,Male,High,High,Positive,172.6,58.7,19.7,Former Smoker,None,Sedentary,160,93,100.8,89,15,95,263
+Hypertensive Heart Disease,No,No,Yes,No,30,Female,High,High,Positive,154.7,77.3,32.3,Former Smoker,None,Active,172,96,97.4,83,19,104,259
+Influenza,Yes,Yes,Yes,No,30,Male,High,Normal,Positive,169.2,85.1,29.7,Non-Smoker,Moderate,Sedentary,145,104,102.9,84,12,99,193
+Influenza,Yes,Yes,Yes,Yes,30,Female,Normal,Normal,Positive,161.8,60.5,23.1,Current Smoker,Moderate,Sedentary,127,85,101.2,107,20,79,198
+Multiple Sclerosis,No,No,Yes,No,30,Female,High,High,Positive,172.4,53.9,18.1,Current Smoker,None,Moderate,150,109,98.0,107,16,80,280
+Myocardial Infarction (Heart...,Yes,Yes,Yes,Yes,30,Female,High,High,Positive,167.4,85.2,30.4,Non-Smoker,High,Active,163,104,101.7,89,30,77,236
+Urinary Tract Infection (UTI),Yes,No,No,No,30,Female,Normal,Normal,Positive,152.7,57.2,24.5,Former Smoker,None,Moderate,125,76,102.1,110,16,94,176
+Asthma,No,No,No,Yes,31,Male,Normal,Low,Negative,177.6,94.5,30.0,Non-Smoker,Moderate,Moderate,130,79,98.7,90,30,96,130
+Osteoporosis,No,No,No,Yes,31,Male,Low,Normal,Negative,171.9,55.0,18.6,Non-Smoker,Moderate,Moderate,99,67,99.0,100,20,111,172
+Common Cold,Yes,No,Yes,Yes,31,Male,High,High,Positive,169.6,65.0,22.6,Non-Smoker,Moderate,Active,153,94,101.3,103,25,80,251
+Migraine,Yes,No,No,No,31,Female,Normal,Normal,Positive,169.3,71.7,25.0,Non-Smoker,Moderate,Sedentary,130,71,103.2,89,12,86,173
+Pneumonia,Yes,No,Yes,Yes,32,Female,High,Normal,Positive,172.2,74.7,25.2,Non-Smoker,Moderate,Moderate,144,92,102.9,107,24,87,182
+Allergic Rhinitis,No,No,Yes,No,35,Female,Normal,Low,Negative,171.5,68.3,23.2,Current Smoker,None,Moderate,114,77,98.1,87,20,95,135
+Asthma,No,Yes,Yes,Yes,35,Female,Normal,High,Negative,159.1,69.6,27.5,Non-Smoker,Moderate,Moderate,126,72,98.9,81,24,99,277
+Asthma,Yes,Yes,Yes,Yes,35,Female,Normal,Normal,Negative,162.8,55.0,20.7,Current Smoker,None,Moderate,128,78,100.4,102,25,105,183
+Asthma,No,Yes,Yes,Yes,35,Female,High,Normal,Negative,167.3,68.4,24.4,Non-Smoker,Moderate,Moderate,160,101,97.2,87,27,72,174
+Asthma,No,Yes,Yes,Yes,35,Female,High,Normal,Negative,171.8,75.2,25.5,Non-Smoker,None,Moderate,180,90,98.7,95,30,186,185
+Atherosclerosis,No,No,Yes,No,35,Male,Normal,Normal,Negative,171.2,79.3,27.1,Non-Smoker,Moderate,Sedentary,127,74,97.9,106,12,82,184
+Chronic Obstructive Pulmonary...,Yes,Yes,Yes,Yes,35,Male,Normal,Normal,Negative,173.5,83.8,27.8,Non-Smoker,Moderate,Moderate,113,84,103.3,101,21,120,184
+Common Cold,Yes,Yes,Yes,No,35,Male,High,Normal,Negative,166.1,56.6,20.5,Current Smoker,Moderate,Sedentary,146,90,103.5,84,20,82,199
+Eczema,No,Yes,No,No,35,Male,High,Normal,Negative,165.4,51.6,18.9,Non-Smoker,Moderate,Sedentary,156,91,97.1,86,14,76,173
+Epilepsy,No,No,Yes,No,35,Male,High,High,Negative,181.5,99.2,30.1,Non-Smoker,Moderate,Moderate,167,100,98.8,104,17,76,259
+Hypertension,Yes,Yes,Yes,No,35,Female,High,Normal,Negative,174.5,80.2,26.3,Non-Smoker,None,Sedentary,180,96,101.5,108,16,114,196
+Hyperthyroidism,Yes,Yes,Yes,No,35,Female,Normal,Normal,Negative,164.5,59.5,22.0,Current Smoker,None,Active,126,70,101.8,82,13,122,185
+Obsessive-Compulsive Disorde...,No,No,Yes,No,35,Male,Normal,Normal,Negative,183.0,104.5,31.2,Former Smoker,None,Sedentary,111,75,98.3,91,18,158,197
+Pneumonia,Yes,Yes,Yes,Yes,35,Female,Normal,Normal,Negative,167.5,71.5,25.5,Current Smoker,None,Moderate,123,75,103.7,92,23,70,185
+Pneumonia,Yes,Yes,Yes,Yes,35,Female,Normal,Normal,Negative,160.5,76.5,29.7,Non-Smoker,Moderate,Sedentary,111,70,99.6,92,20,91,199
+Psoriasis,Yes,No,No,No,35,Female,Normal,Low,Negative,167.5,70.9,25.3,Non-Smoker,None,Sedentary,119,74,101.6,89,15,90,133
+Psoriasis,No,Yes,Yes,No,35,Female,Normal,Low,Negative,175.8,102.7,33.2,Non-Smoker,High,Sedentary,114,71,98.4,83,17,114,155
+Rubella,Yes,No,Yes,No,35,Female,High,Normal,Negative,164.7,86.9,32.0,Non-Smoker,None,Sedentary,161,105,102.8,88,18,93,197
+Rubella,Yes,No,Yes,No,35,Female,High,Normal,Negative,176.0,74.3,24.0,Non-Smoker,None,Moderate,141,99,102.6,101,18,115,182
+Urinary Tract Infection (UTI),No,Yes,Yes,No,35,Male,High,High,Negative,154.0,68.5,28.9,Non-Smoker,Moderate,Active,173,105,97.3,103,18,93,221
+Asthma,Yes,Yes,No,Yes,35,Male,Normal,Normal,Positive,181.6,90.9,27.6,Non-Smoker,Moderate,Moderate,125,72,100.8,102,22,93,200
+Asthma,Yes,Yes,No,Yes,35,Male,Normal,Normal,Positive,175.7,94.1,30.5,Non-Smoker,Moderate,Active,116,75,101.1,106,25,98,172
+Cirrhosis,No,No,Yes,No,35,Female,Normal,High,Positive,162.9,56.1,21.1,Current Smoker,Moderate,Moderate,121,77,98.6,81,19,82,273
+Conjunctivitis (Pink Eye),No,Yes,No,No,35,Female,High,High,Positive,165.6,76.1,27.7,Non-Smoker,Moderate,Moderate,179,95,97.6,78,15,101,227
+Depression,No,No,Yes,No,35,Female,Normal,High,Positive,151.1,66.7,29.2,Non-Smoker,None,Sedentary,119,72,97.4,80,19,70,243
+Gastroenteritis,Yes,No,Yes,Yes,35,Male,Low,High,Positive,173.2,53.9,18.0,Current Smoker,High,Moderate,92,60,103.8,104,21,75,234
+Hyperthyroidism,Yes,Yes,Yes,No,35,Male,High,High,Positive,177.9,64.1,20.3,Non-Smoker,High,Sedentary,171,96,99.5,108,20,89,262
+Hyperthyroidism,Yes,Yes,Yes,No,35,Male,High,High,Positive,186.8,58.8,16.8,Current Smoker,Moderate,Active,160,109,104.0,86,20,186,250
+Kidney Cancer,No,No,Yes,No,35,Male,High,High,Positive,170.9,69.8,23.9,Non-Smoker,None,Sedentary,165,93,98.4,96,19,98,228
+Liver Cancer,No,No,Yes,No,35,Female,High,High,Positive,159.3,70.8,27.9,Non-Smoker,Moderate,Sedentary,161,104,98.7,82,12,112,258
+Liver Disease,No,No,Yes,No,35,Male,High,High,Positive,171.0,90.7,31.0,Current Smoker,None,Moderate,179,110,97.6,99,13,84,264
+Malaria,Yes,No,No,No,35,Male,High,High,Positive,182.3,84.1,25.3,Current Smoker,None,Moderate,154,109,99.6,99,17,82,221
+Malaria,Yes,No,No,No,35,Male,High,High,Positive,177.6,99.4,31.5,Current Smoker,None,Sedentary,167,103,102.8,100,16,89,227
+Migraine,No,Yes,Yes,No,35,Male,High,High,Positive,170.8,56.8,19.5,Non-Smoker,Moderate,Active,166,98,98.7,109,20,120,226
+Migraine,Yes,No,No,No,35,Male,High,High,Positive,179.1,58.3,18.2,Non-Smoker,Moderate,Moderate,179,106,102.8,82,16,110,275
+Pancreatitis,No,No,Yes,No,35,Male,Normal,High,Positive,175.8,76.6,24.8,Non-Smoker,Moderate,Moderate,111,78,97.3,82,13,97,263
+Rheumatoid Arthritis,Yes,Yes,Yes,No,35,Male,Normal,Low,Positive,182.7,88.6,26.5,Non-Smoker,Moderate,Active,112,77,102.9,96,15,72,168
+Rheumatoid Arthritis,No,No,Yes,No,35,Female,Normal,Low,Positive,160.1,63.7,24.9,Former Smoker,None,Moderate,121,70,98.5,86,20,83,145
+Spina Bifida,No,No,Yes,No,35,Female,Normal,Normal,Positive,162.7,45.0,17.0,Non-Smoker,None,Active,119,73,98.3,106,12,174,172
+Ulcerative Colitis,No,No,Yes,No,35,Male,High,High,Positive,171.9,72.8,24.6,Former Smoker,None,Active,174,95,98.5,105,12,122,249
+Ulcerative Colitis,Yes,No,No,No,35,Male,High,High,Positive,163.3,52.7,19.8,Non-Smoker,High,Active,178,109,103.3,93,18,110,229
+Urinary Tract Infection,Yes,No,Yes,No,35,Female,Normal,High,Positive,167.1,77.3,27.7,Non-Smoker,None,Sedentary,127,80,102.3,96,14,72,257
+Allergic Rhinitis,No,Yes,No,No,38,Female,Low,Normal,Negative,166.8,73.7,26.5,Non-Smoker,Moderate,Moderate,92,64,97.2,77,13,90,187
+Depression,No,No,No,No,38,Female,Normal,High,Negative,165.0,57.9,21.2,Former Smoker,Moderate,Sedentary,128,80,98.0,72,20,88,269
+Gastroenteritis,No,No,No,No,38,Male,Normal,Low,Negative,173.1,68.8,22.9,Current Smoker,None,Moderate,121,79,97.2,79,14,98,134
+Influenza,No,No,No,No,38,Male,Normal,Normal,Negative,163.7,55.6,20.8,Current Smoker,Moderate,Moderate,117,77,97.8,88,13,88,190
+Kidney Disease,No,No,Yes,No,38,Female,Low,Normal,Negative,162.1,65.0,24.7,Current Smoker,None,Moderate,98,63,97.8,99,19,79,198
+Liver Cancer,Yes,Yes,No,No,38,Female,High,Normal,Negative,162.6,76.2,28.8,Current Smoker,Moderate,Moderate,176,110,99.8,100,17,94,176
+Liver Disease,No,Yes,No,Yes,38,Male,Low,Normal,Negative,168.6,59.8,21.1,Current Smoker,High,Active,97,66,97.7,106,25,88,197
+Osteoporosis,No,Yes,No,No,38,Female,Normal,High,Negative,163.9,72.5,27.0,Non-Smoker,None,Moderate,118,84,97.2,77,18,110,253
+Stroke,Yes,Yes,No,No,38,Female,High,Normal,Negative,167.8,64.4,22.9,Non-Smoker,None,Moderate,154,105,103.1,83,18,180,180
+Anxiety Disorders,Yes,No,Yes,Yes,38,Male,High,High,Positive,190.1,78.9,21.8,Non-Smoker,Moderate,Moderate,179,107,103.8,80,30,96,264
+Diabetes,Yes,No,Yes,Yes,38,Male,High,Low,Positive,176.4,76.5,24.6,Former Smoker,High,Moderate,159,95,99.8,97,25,90,152
+Migraine,Yes,Yes,No,No,38,Male,High,High,Positive,177.1,65.4,20.9,Former Smoker,None,Active,151,91,103.8,80,15,129,224
+Osteoarthritis,Yes,Yes,Yes,No,38,Male,High,High,Positive,174.4,69.3,22.8,Non-Smoker,Moderate,Active,146,105,101.9,105,20,109,249
+Pneumonia,Yes,Yes,Yes,Yes,38,Male,Normal,Normal,Positive,159.6,51.5,20.2,Current Smoker,Moderate,Sedentary,112,82,100.8,105,25,94,175
+Klinefelter Syndrome,No,No,Yes,No,39,Female,Normal,Normal,Positive,164.8,89.3,32.9,Former Smoker,Moderate,Moderate,112,80,97.2,92,15,80,193
+Acne,No,No,Yes,No,40,Male,Normal,Normal,Negative,175.5,77.4,25.1,Non-Smoker,None,Active,127,80,98.0,99,14,122,195
+Brain Tumor,No,No,Yes,No,40,Male,Normal,Normal,Negative,194.7,84.2,22.2,Non-Smoker,Moderate,Sedentary,117,75,98.6,99,15,200,198
+Bronchitis,No,Yes,No,Yes,40,Female,Normal,Normal,Negative,163.7,69.2,25.9,Former Smoker,High,Active,110,81,98.4,102,22,74,183
+Cystic Fibrosis,No,No,Yes,Yes,40,Male,High,High,Negative,177.4,77.3,24.6,Non-Smoker,None,Moderate,140,97,97.1,89,21,96,263
+Diabetes,Yes,No,No,No,40,Female,High,High,Negative,164.8,65.5,24.1,Current Smoker,None,Sedentary,176,105,99.8,106,16,108,223
+Glaucoma,No,No,Yes,No,40,Male,High,Normal,Negative,165.7,75.3,27.5,Non-Smoker,High,Moderate,176,93,97.8,90,13,91,198
+Osteoarthritis,No,No,Yes,No,40,Male,High,Normal,Negative,184.1,95.0,28.0,Former Smoker,None,Active,169,95,97.6,88,17,76,192
+Rabies,Yes,Yes,No,No,40,Female,High,Normal,Negative,170.3,66.3,22.9,Former Smoker,Moderate,Active,158,98,100.5,88,14,84,175
+Rabies,Yes,Yes,No,No,40,Female,High,Normal,Negative,170.5,66.0,22.7,Former Smoker,None,Moderate,151,100,100.8,84,17,91,179
+Asthma,Yes,No,Yes,No,40,Male,Low,Normal,Positive,167.7,67.2,23.9,Non-Smoker,None,Active,96,60,103.1,105,20,84,187
+Asthma,Yes,Yes,No,Yes,40,Female,Normal,Normal,Positive,174.8,48.3,15.8,Former Smoker,Moderate,Moderate,122,76,103.7,80,20,83,184
+Asthma,Yes,Yes,No,Yes,40,Female,Normal,Normal,Positive,155.2,45.6,18.9,Current Smoker,None,Active,130,74,101.3,96,25,89,177
+Asthma,No,No,Yes,Yes,40,Male,High,High,Positive,179.7,98.4,30.5,Non-Smoker,Moderate,Moderate,169,102,98.8,101,28,100,277
+Asthma,Yes,No,Yes,Yes,40,Male,Normal,High,Positive,192.5,117.1,31.6,Current Smoker,None,Sedentary,111,73,100.9,81,30,110,251
+Asthma,Yes,No,Yes,Yes,40,Male,Normal,High,Positive,167.1,67.0,24.0,Non-Smoker,Moderate,Sedentary,115,79,101.6,103,23,77,228
+Chickenpox,No,Yes,No,No,40,Male,Normal,High,Positive,170.5,79.4,27.3,Non-Smoker,None,Moderate,114,78,97.5,72,13,105,256
+Chickenpox,No,Yes,No,No,40,Male,Normal,High,Positive,175.8,81.1,26.2,Non-Smoker,None,Moderate,112,70,98.3,68,15,93,229
+Coronary Artery Disease,No,No,Yes,No,40,Female,High,High,Positive,161.5,97.3,37.3,Non-Smoker,High,Moderate,143,109,99.0,108,12,138,239
+"Eating Disorders (Anorexia,...",No,No,Yes,No,40,Female,High,High,Positive,154.1,70.0,29.5,Non-Smoker,None,Moderate,173,94,98.2,83,14,74,225
+Fibromyalgia,No,No,Yes,No,40,Female,High,High,Positive,165.5,67.1,24.5,Current Smoker,Moderate,Moderate,174,98,97.7,84,20,101,267
+Gastroenteritis,Yes,Yes,Yes,No,40,Male,High,High,Positive,166.5,58.7,21.2,Non-Smoker,None,Active,177,107,102.4,90,16,151,275
+Hemophilia,No,No,Yes,No,40,Female,Normal,Normal,Positive,168.3,52.6,18.6,Current Smoker,Moderate,Sedentary,115,72,97.2,103,17,111,196
+Hyperthyroidism,No,No,Yes,No,40,Male,High,High,Positive,167.6,72.5,25.8,Non-Smoker,None,Moderate,150,91,98.8,98,14,91,222
+Hypoglycemia,No,No,Yes,No,40,Female,High,High,Positive,175.8,68.0,22.0,Non-Smoker,High,Active,148,110,98.0,100,16,107,261
+Lymphoma,No,Yes,No,No,40,Female,Normal,High,Positive,159.5,49.1,19.3,Non-Smoker,None,Moderate,111,75,97.9,62,19,86,230
+Pneumonia,Yes,Yes,Yes,Yes,40,Female,Normal,High,Positive,162.7,59.4,22.4,Current Smoker,None,Moderate,112,81,102.1,91,25,119,262
+Psoriasis,No,Yes,Yes,No,40,Male,High,Normal,Positive,181.5,68.1,20.7,Non-Smoker,None,Sedentary,167,105,98.2,105,15,83,186
+Psoriasis,Yes,No,No,No,40,Male,High,Normal,Positive,165.2,86.6,31.7,Current Smoker,None,Moderate,160,90,99.8,98,13,106,173
+Psoriasis,No,Yes,No,No,40,Female,Normal,High,Positive,166.6,79.2,28.5,Former Smoker,None,Sedentary,130,72,98.4,78,20,96,223
+Tuberculosis,Yes,Yes,Yes,Yes,40,Male,High,High,Positive,185.5,85.9,25.0,Current Smoker,None,Active,173,98,100.6,92,20,173,236
+Tuberculosis,Yes,Yes,Yes,Yes,40,Male,High,High,Positive,162.1,81.3,30.9,Non-Smoker,Moderate,Moderate,157,100,102.7,107,20,92,260
+Anxiety Disorders,No,No,No,No,42,Male,Low,Normal,Negative,176.5,78.8,25.3,Non-Smoker,None,Moderate,98,66,98.6,66,15,78,188
+Common Cold,Yes,Yes,No,No,42,Female,High,High,Negative,166.8,60.0,21.6,Former Smoker,None,Active,161,106,103.1,94,18,162,224
+Depression,Yes,No,No,Yes,42,Male,High,Normal,Negative,181.3,102.1,31.1,Non-Smoker,Moderate,Moderate,144,101,102.0,102,20,182,191
+Influenza,No,Yes,No,No,42,Female,Normal,High,Negative,156.3,66.4,27.2,Former Smoker,Moderate,Sedentary,120,83,98.0,66,20,90,275
+Kidney Cancer,Yes,No,No,No,42,Female,Normal,Normal,Negative,155.8,50.6,20.9,Non-Smoker,None,Active,124,80,100.1,105,15,89,175
+Liver Cancer,Yes,No,Yes,Yes,42,Male,Normal,Low,Negative,179.2,77.8,24.2,Former Smoker,None,Moderate,112,70,103.0,87,22,90,164
+Liver Disease,Yes,No,No,Yes,42,Female,Normal,Normal,Negative,167.1,60.0,21.5,Current Smoker,None,Moderate,129,82,100.7,84,20,174,191
+Lung Cancer,Yes,No,Yes,Yes,42,Male,Normal,Low,Negative,177.0,61.0,19.5,Former Smoker,Moderate,Active,125,71,101.7,100,29,109,130
+Migraine,Yes,Yes,Yes,No,42,Male,High,High,Negative,177.8,90.7,28.7,Non-Smoker,Moderate,Moderate,141,92,100.8,93,15,144,239
+Osteoarthritis,No,No,Yes,No,42,Male,Normal,Low,Negative,169.6,93.8,32.6,Current Smoker,Moderate,Sedentary,117,77,97.3,83,20,71,151
+Stroke,Yes,No,Yes,No,42,Male,Normal,Low,Negative,176.9,60.7,19.4,Non-Smoker,Moderate,Sedentary,124,76,102.3,102,17,81,140
+Urinary Tract Infection,No,Yes,Yes,Yes,42,Female,Normal,Low,Negative,167.1,76.0,27.3,Non-Smoker,Moderate,Sedentary,115,78,97.1,89,25,96,142
+Diabetes,Yes,Yes,Yes,No,42,Male,High,Normal,Positive,169.3,64.2,22.4,Current Smoker,Moderate,Moderate,159,90,102.9,99,12,75,196
+Hypothyroidism,Yes,Yes,Yes,No,42,Female,High,High,Positive,178.1,73.1,23.1,Former Smoker,Moderate,Active,147,92,100.9,94,13,157,261
+Hypothyroidism,Yes,Yes,Yes,No,42,Female,High,High,Positive,168.3,64.1,22.6,Former Smoker,None,Moderate,143,104,99.5,97,17,74,222
+Kidney Disease,Yes,No,Yes,No,42,Female,High,Low,Positive,156.7,52.9,21.5,Current Smoker,None,Moderate,177,104,101.8,99,13,74,138
+Pneumonia,No,Yes,Yes,Yes,43,Female,High,Normal,Positive,169.6,72.5,25.2,Non-Smoker,None,Sedentary,160,92,97.1,92,22,107,197
+Allergic Rhinitis,No,Yes,Yes,No,45,Male,High,Normal,Negative,167.2,60.6,21.7,Non-Smoker,None,Active,153,93,97.6,108,15,81,181
+Autism Spectrum Disorder (ASD),No,No,Yes,No,45,Male,Normal,Normal,Negative,181.3,85.7,26.1,Current Smoker,Moderate,Moderate,121,70,98.4,87,16,77,192
+Crohn's Disease,Yes,No,Yes,No,45,Male,High,Normal,Negative,184.3,84.2,24.8,Non-Smoker,High,Active,178,98,99.8,88,20,77,183
+Hepatitis,Yes,No,Yes,No,45,Female,High,High,Negative,159.3,61.0,24.0,Non-Smoker,None,Moderate,174,102,103.3,95,15,93,252
+Hepatitis,Yes,No,Yes,No,45,Female,High,High,Negative,171.7,63.0,21.4,Non-Smoker,None,Moderate,154,107,99.5,98,20,76,237
+Hyperglycemia,No,No,Yes,No,45,Male,Normal,Normal,Negative,178.3,72.1,22.7,Non-Smoker,Moderate,Moderate,128,70,97.5,95,14,73,186
+Kidney Cancer,No,Yes,Yes,Yes,45,Male,Normal,Low,Negative,181.6,92.4,28.0,Non-Smoker,High,Moderate,115,80,98.5,86,27,103,138
+Kidney Disease,Yes,Yes,No,No,45,Male,Normal,High,Negative,190.2,97.7,27.0,Non-Smoker,None,Moderate,111,77,100.9,93,12,91,242
+Melanoma,Yes,No,Yes,No,45,Male,High,Normal,Negative,173.0,63.1,21.1,Non-Smoker,Moderate,Moderate,177,103,100.0,107,20,189,179
+Migraine,No,No,No,No,45,Female,Low,Normal,Negative,159.7,64.8,25.4,Non-Smoker,None,Sedentary,93,64,97.7,73,20,93,188
+Ovarian Cancer,No,No,Yes,No,45,Male,Normal,Normal,Negative,167.9,78.9,28.0,Former Smoker,None,Sedentary,117,83,97.5,104,13,92,198
+Pancreatitis,No,Yes,Yes,Yes,45,Male,Normal,Low,Negative,168.5,52.0,18.3,Non-Smoker,High,Sedentary,112,72,98.7,106,23,92,134
+Rheumatoid Arthritis,Yes,No,No,No,45,Male,Normal,Normal,Negative,174.4,82.6,27.2,Non-Smoker,High,Sedentary,123,80,100.9,83,19,113,184
+Stroke,No,No,Yes,No,45,Male,Normal,Normal,Negative,177.7,70.6,22.3,Current Smoker,None,Moderate,129,70,98.6,105,18,104,189
+Turner Syndrome,No,No,Yes,No,45,Male,High,High,Negative,177.2,85.7,27.3,Non-Smoker,High,Moderate,164,97,98.8,94,12,79,242
+Turner Syndrome,No,No,Yes,No,45,Male,High,High,Negative,181.6,72.4,21.9,Former Smoker,Moderate,Moderate,163,103,97.9,82,16,83,249
+Urinary Tract Infection,No,No,No,No,45,Female,Low,Normal,Negative,165.1,48.5,17.8,Current Smoker,Moderate,Moderate,99,65,98.8,64,18,81,194
+Zika Virus,No,Yes,Yes,No,45,Female,High,High,Negative,175.2,56.7,18.5,Non-Smoker,None,Sedentary,162,105,97.8,80,15,99,247
+Zika Virus,No,Yes,Yes,No,45,Female,High,High,Negative,163.1,67.1,25.2,Non-Smoker,None,Active,158,103,98.9,82,12,190,253
+Allergic Rhinitis,Yes,Yes,Yes,No,45,Male,High,Normal,Positive,195.0,99.0,26.0,Former Smoker,Moderate,Sedentary,142,99,99.9,94,20,79,182
+Anxiety Disorders,Yes,Yes,Yes,No,45,Male,High,Normal,Positive,180.0,69.3,21.4,Former Smoker,Moderate,Moderate,158,98,102.6,103,16,109,193
+Asthma,Yes,Yes,No,Yes,45,Male,Normal,Normal,Positive,168.1,77.9,27.6,Non-Smoker,None,Moderate,129,82,101.7,106,30,71,185
+Asthma,Yes,Yes,No,Yes,45,Male,Normal,Normal,Positive,166.4,50.8,18.4,Current Smoker,None,Moderate,116,83,101.2,87,21,82,184
+Cataracts,No,No,Yes,No,45,Female,Normal,High,Positive,168.4,70.1,24.7,Non-Smoker,None,Sedentary,118,80,98.3,110,19,87,244
+Crohn's Disease,No,No,Yes,No,45,Female,High,High,Positive,163.4,53.8,20.2,Former Smoker,Moderate,Moderate,158,104,98.4,108,13,107,229
+Crohn's Disease,Yes,Yes,Yes,No,45,Female,High,High,Positive,170.0,64.7,22.4,Non-Smoker,None,Moderate,153,95,99.5,83,14,109,233
+Depression,No,No,Yes,No,45,Female,High,High,Positive,168.3,71.4,25.2,Former Smoker,Moderate,Active,175,97,97.3,81,12,92,261
+Diabetes,Yes,No,Yes,No,45,Female,High,High,Positive,164.5,58.3,21.6,Current Smoker,High,Moderate,156,98,102.7,108,13,116,276
+Diabetes,No,Yes,Yes,No,45,Male,Normal,High,Positive,168.2,66.4,23.5,Current Smoker,None,Active,110,77,98.3,103,18,107,265
+Hypertension,Yes,No,Yes,No,45,Male,Normal,High,Positive,162.9,77.0,29.0,Non-Smoker,Moderate,Moderate,129,78,103.8,103,13,96,277
+Hypothyroidism,No,No,Yes,No,45,Female,High,High,Positive,161.9,59.5,22.7,Non-Smoker,None,Moderate,153,100,98.5,89,17,82,249
+Liver Disease,Yes,Yes,Yes,No,45,Female,Normal,High,Positive,171.0,82.9,28.3,Non-Smoker,Moderate,Moderate,130,72,103.8,83,14,111,274
+Multiple Sclerosis,Yes,No,No,No,45,Female,High,High,Positive,166.5,56.8,20.5,Non-Smoker,None,Active,180,103,102.7,82,15,88,260
+Multiple Sclerosis,Yes,No,No,No,45,Female,High,High,Positive,156.3,66.2,27.1,Non-Smoker,Moderate,Active,169,98,100.8,81,19,124,244
+Osteoarthritis,Yes,No,Yes,Yes,45,Male,High,Normal,Positive,176.4,95.7,30.8,Current Smoker,Moderate,Moderate,143,93,100.0,104,22,143,183
+Osteoporosis,Yes,Yes,Yes,No,45,Female,Normal,High,Positive,167.7,45.0,16.0,Non-Smoker,High,Active,117,71,103.0,96,17,76,254
+Pneumocystis Pneumonia (PCP),Yes,Yes,Yes,No,45,Female,High,High,Positive,158.8,55.0,21.8,Non-Smoker,Moderate,Active,180,103,102.4,102,12,94,271
+Pneumonia,Yes,Yes,Yes,Yes,45,Male,High,High,Positive,176.2,84.8,27.3,Former Smoker,Moderate,Active,161,98,99.7,100,26,77,267
+Scoliosis,No,No,No,No,45,Female,High,High,Positive,165.4,66.2,24.2,Former Smoker,Moderate,Sedentary,155,106,97.7,83,19,86,253
+Sickle Cell Anemia,No,No,Yes,No,45,Female,Normal,Normal,Positive,157.0,65.3,26.5,Former Smoker,Moderate,Moderate,125,83,98.9,99,19,105,179
+Tetanus,No,No,Yes,No,45,Male,Normal,High,Positive,177.9,71.4,22.6,Former Smoker,Moderate,Moderate,121,72,98.0,102,14,94,254
+Tetanus,No,No,Yes,No,45,Male,Normal,High,Positive,179.5,81.7,25.3,Non-Smoker,None,Moderate,120,85,97.9,92,12,83,230
+Hypertension,No,No,No,No,48,Female,Low,High,Negative,170.6,70.9,24.4,Non-Smoker,High,Moderate,91,64,97.9,64,20,103,230
+Hypothyroidism,No,No,Yes,No,48,Male,Normal,High,Negative,181.4,97.7,29.7,Current Smoker,Moderate,Sedentary,130,74,97.4,110,17,197,240
+Hypothyroidism,No,No,Yes,No,48,Male,Normal,High,Negative,162.0,68.3,26.0,Current Smoker,Moderate,Moderate,125,73,97.7,109,20,96,240
+Allergic Rhinitis,Yes,No,No,No,50,Male,High,High,Negative,165.5,72.2,26.4,Non-Smoker,None,Active,176,92,101.2,100,18,75,241
+Anemia,No,No,Yes,No,50,Male,Normal,Normal,Negative,177.1,73.3,23.4,Current Smoker,Moderate,Active,121,70,97.1,109,12,178,182
+Anxiety Disorders,No,No,Yes,No,50,Male,Normal,Normal,Negative,177.1,72.3,23.0,Non-Smoker,None,Active,130,82,98.5,88,12,97,176
+Cholera,Yes,No,Yes,Yes,50,Female,High,High,Negative,166.6,64.6,23.3,Non-Smoker,Moderate,Moderate,148,98,101.4,104,25,91,274
+Cholera,Yes,No,Yes,Yes,50,Female,High,High,Negative,190.0,95.9,26.6,Non-Smoker,None,Sedentary,143,92,103.2,108,24,121,236
+Crohn's Disease,Yes,Yes,Yes,No,50,Male,Normal,High,Negative,177.6,73.5,23.3,Non-Smoker,Moderate,Moderate,126,71,103.3,104,20,105,221
+Crohn's Disease,No,No,Yes,No,50,Male,Normal,High,Negative,182.1,86.7,26.2,Non-Smoker,High,Active,110,77,97.4,107,13,197,231
+Depression,No,Yes,Yes,No,50,Female,Low,Low,Negative,169.7,95.9,33.3,Non-Smoker,None,Active,96,67,98.3,101,19,75,147
+Diabetes,No,Yes,No,No,50,Male,Normal,High,Negative,178.2,90.5,28.5,Former Smoker,High,Sedentary,121,75,97.9,65,16,72,273
+Endometriosis,Yes,No,No,No,50,Male,High,Normal,Negative,170.5,68.9,23.7,Non-Smoker,None,Moderate,151,103,103.5,84,13,184,196
+Hypertension,No,Yes,No,No,50,Female,Normal,Low,Negative,168.3,84.4,29.8,Non-Smoker,Moderate,Sedentary,124,84,97.4,84,17,96,140
+Hypothyroidism,Yes,Yes,Yes,No,50,Male,Normal,High,Negative,166.8,65.0,23.4,Former Smoker,Moderate,Moderate,118,72,102.6,89,19,104,235
+Kidney Cancer,No,Yes,No,No,50,Male,Low,High,Negative,171.1,49.3,16.8,Former Smoker,Moderate,Moderate,99,63,98.2,67,15,94,268
+Kidney Disease,No,Yes,No,Yes,50,Male,Normal,Normal,Negative,169.1,60.0,21.0,Former Smoker,Moderate,Moderate,117,74,97.6,86,21,99,188
+Pancreatitis,No,Yes,No,No,50,Male,Low,High,Negative,173.7,52.8,17.5,Current Smoker,Moderate,Active,92,65,97.3,66,16,89,237
+Rheumatoid Arthritis,No,Yes,No,No,50,Female,Low,Normal,Negative,179.2,75.8,23.6,Current Smoker,None,Moderate,93,68,98.3,65,13,91,172
+Sepsis,Yes,Yes,Yes,No,50,Male,Normal,Normal,Negative,158.1,62.6,25.1,Non-Smoker,None,Sedentary,128,73,102.8,100,13,112,190
+Sleep Apnea,Yes,No,Yes,Yes,50,Male,High,High,Negative,178.5,101.0,31.7,Non-Smoker,Moderate,Moderate,146,93,100.9,108,25,174,278
+Urinary Tract Infection,Yes,Yes,No,Yes,50,Male,High,Normal,Negative,160.1,67.4,26.3,Non-Smoker,Moderate,Moderate,161,101,102.4,99,30,112,195
+Asthma,Yes,Yes,Yes,Yes,50,Female,Normal,High,Positive,159.7,61.5,24.1,Non-Smoker,Moderate,Active,122,72,101.3,82,29,73,235
+Bronchitis,Yes,Yes,Yes,Yes,50,Male,High,High,Positive,181.7,93.5,28.3,Non-Smoker,Moderate,Sedentary,161,101,102.7,98,28,84,225
+Down Syndrome,No,No,Yes,No,50,Female,High,High,Positive,163.4,45.0,16.8,Current Smoker,None,Sedentary,141,91,97.4,101,15,93,276
+Ebola Virus,Yes,Yes,Yes,Yes,50,Male,Normal,Normal,Positive,164.4,70.1,25.9,Non-Smoker,Moderate,Moderate,118,70,103.5,94,25,87,181
+Ebola Virus,Yes,Yes,Yes,Yes,50,Male,Normal,Normal,Positive,167.3,78.6,28.1,Non-Smoker,None,Sedentary,117,76,100.8,83,26,148,180
+Eczema,No,Yes,No,No,50,Female,High,High,Positive,167.8,53.7,19.1,Non-Smoker,None,Moderate,177,95,97.7,87,17,77,266
+Gastroenteritis,Yes,Yes,Yes,Yes,50,Female,High,Normal,Positive,157.9,73.7,29.6,Current Smoker,None,Moderate,161,107,99.8,91,27,184,184
+Klinefelter Syndrome,No,No,Yes,No,50,Female,Normal,Normal,Positive,164.5,71.3,26.4,Non-Smoker,None,Moderate,126,82,97.2,85,15,74,185
+Liver Cancer,No,Yes,Yes,Yes,50,Male,High,High,Positive,173.4,70.1,23.3,Former Smoker,None,Sedentary,151,95,98.0,98,20,94,261
+Lyme Disease,Yes,No,No,No,50,Male,Normal,High,Positive,167.8,77.5,27.5,Non-Smoker,None,Moderate,117,72,100.7,110,18,122,231
+Lyme Disease,Yes,No,No,No,50,Male,Normal,High,Positive,190.2,120.0,33.2,Non-Smoker,Moderate,Active,119,70,103.3,83,14,87,279
+Pancreatic Cancer,No,No,Yes,No,50,Female,High,High,Positive,167.4,72.1,25.7,Non-Smoker,None,Moderate,168,102,97.0,94,17,99,232
+Pneumothorax,No,No,Yes,Yes,50,Female,High,High,Positive,150.0,58.5,26.0,Current Smoker,None,Sedentary,174,97,97.8,88,21,138,223
+Stroke,No,Yes,Yes,Yes,50,Male,High,High,Positive,174.5,70.5,23.2,Non-Smoker,None,Moderate,153,92,97.7,84,28,120,258
+Ulcerative Colitis,No,Yes,Yes,No,50,Female,Normal,High,Positive,158.4,54.2,21.6,Current Smoker,None,Moderate,125,82,97.0,92,12,86,273
+Hypertension,Yes,Yes,No,No,52,Male,Normal,Low,Negative,179.8,91.6,28.3,Current Smoker,None,Moderate,129,77,100.1,102,17,89,131
+Multiple Sclerosis,No,Yes,Yes,No,52,Male,Normal,Normal,Negative,166.7,59.9,21.6,Non-Smoker,None,Moderate,126,82,97.8,105,17,119,195
+Multiple Sclerosis,No,Yes,Yes,No,52,Male,Normal,Normal,Negative,172.1,74.9,25.3,Former Smoker,Moderate,Sedentary,115,70,98.0,97,16,90,196
+Appendicitis,Yes,No,Yes,No,55,Male,Normal,Normal,Negative,177.0,72.4,23.1,Former Smoker,Moderate,Sedentary,123,70,101.3,109,16,89,196
+Bronchitis,No,No,Yes,Yes,55,Male,High,High,Negative,179.9,87.1,26.9,Current Smoker,Moderate,Moderate,147,100,98.1,109,20,94,246
+Bronchitis,Yes,Yes,Yes,Yes,55,Male,High,Normal,Negative,163.4,70.3,26.3,Former Smoker,Moderate,Moderate,159,90,102.2,84,29,91,184
+Common Cold,Yes,No,Yes,Yes,55,Male,Normal,Low,Negative,170.3,84.6,29.2,Former Smoker,None,Moderate,116,74,99.5,104,24,169,137
+Diabetes,No,Yes,No,No,55,Female,Normal,High,Negative,159.7,58.5,23.0,Former Smoker,Moderate,Sedentary,130,70,97.9,75,13,71,226
+Esophageal Cancer,No,No,Yes,No,55,Male,Normal,Normal,Negative,167.8,67.3,23.9,Former Smoker,Moderate,Sedentary,119,80,98.9,106,18,84,200
+HIV/AIDS,Yes,No,No,No,55,Female,High,High,Negative,175.4,64.8,21.1,Current Smoker,None,Moderate,180,98,101.8,98,14,82,266
+HIV/AIDS,Yes,No,No,No,55,Female,High,High,Negative,165.8,63.9,23.2,Current Smoker,None,Sedentary,163,94,102.5,93,15,94,274
+Hypertension,No,Yes,No,No,55,Female,Normal,Low,Negative,154.2,63.0,26.5,Current Smoker,None,Sedentary,126,78,97.6,84,14,96,169
+Liver Disease,No,Yes,Yes,No,55,Male,High,Low,Negative,180.3,91.2,28.0,Former Smoker,None,Sedentary,156,110,98.5,109,14,70,141
+Marfan Syndrome,No,No,Yes,No,55,Male,High,High,Negative,190.0,76.9,21.3,Non-Smoker,None,Sedentary,178,98,98.5,95,15,109,232
+Migraine,No,Yes,Yes,Yes,55,Female,Normal,Low,Negative,170.2,82.5,28.5,Former Smoker,Moderate,Moderate,116,82,98.0,106,24,80,146
+Osteoporosis,No,No,Yes,No,55,Male,High,Normal,Negative,160.8,78.7,30.4,Former Smoker,Moderate,Sedentary,150,103,99.0,94,12,86,200
+Parkinson's Disease,No,No,Yes,No,55,Female,Normal,Low,Negative,159.6,67.9,26.7,Non-Smoker,Moderate,Moderate,128,80,97.3,101,15,95,146
+Parkinson's Disease,No,No,Yes,No,55,Female,Normal,Low,Negative,171.9,96.0,32.5,Former Smoker,Moderate,Sedentary,122,84,97.0,83,19,120,165
+Anxiety Disorders,Yes,Yes,No,No,55,Female,Normal,Low,Positive,158.0,54.7,21.9,Non-Smoker,Moderate,Sedentary,123,82,103.0,86,18,123,150
+Coronary Artery Disease,No,No,Yes,No,55,Female,Normal,Normal,Positive,166.1,55.2,20.0,Non-Smoker,Moderate,Sedentary,110,77,98.6,95,20,87,177
+Coronary Artery Disease,No,No,Yes,No,55,Female,Normal,Normal,Positive,168.4,50.7,17.9,Former Smoker,High,Sedentary,121,72,97.2,103,16,82,174
+Hemorrhoids,No,No,No,No,55,Female,High,High,Positive,156.5,75.9,31.0,Non-Smoker,None,Moderate,151,97,97.5,81,15,121,245
+Hypertension,Yes,No,Yes,No,55,Male,High,Normal,Positive,172.5,82.2,27.6,Former Smoker,None,Moderate,147,110,99.6,100,19,86,185
+Hypothyroidism,No,No,Yes,No,55,Female,High,High,Positive,150.0,55.7,24.8,Former Smoker,None,Sedentary,151,105,97.6,101,20,80,255
+Osteoarthritis,Yes,Yes,No,No,55,Female,High,High,Positive,155.8,63.4,26.1,Current Smoker,Moderate,Sedentary,172,102,103.0,100,18,90,247
+Osteoporosis,Yes,No,Yes,Yes,55,Male,High,Low,Positive,171.0,59.9,20.5,Non-Smoker,Moderate,Active,165,96,101.8,87,26,188,158
+Osteoporosis,No,Yes,Yes,No,55,Female,Normal,Normal,Positive,154.3,82.8,34.8,Non-Smoker,None,Moderate,114,77,97.7,96,16,76,184
+Osteoporosis,Yes,No,Yes,No,55,Female,Normal,Normal,Positive,174.4,77.6,25.5,Current Smoker,High,Moderate,123,76,101.2,95,15,86,181
+Osteoporosis,Yes,No,Yes,No,55,Female,Normal,Normal,Positive,153.0,59.5,25.4,Former Smoker,None,Sedentary,122,84,99.5,106,12,123,174
+Polycystic Ovary Syndrome (PCOS),Yes,Yes,No,No,55,Female,Normal,Normal,Positive,159.9,71.4,27.9,Current Smoker,High,Sedentary,126,84,100.8,102,18,71,199
+Systemic Lupus Erythematosus...,No,Yes,Yes,No,55,Female,High,High,Positive,163.9,72.3,26.9,Non-Smoker,None,Moderate,159,107,98.3,110,12,104,242
+Typhoid Fever,No,Yes,No,No,55,Male,Normal,Low,Positive,184.5,88.2,25.9,Current Smoker,None,Moderate,127,71,98.9,69,12,193,145
+Typhoid Fever,No,Yes,No,No,55,Male,Normal,Low,Positive,161.5,57.0,21.8,Current Smoker,Moderate,Sedentary,113,83,98.7,69,16,86,143
+Influenza,Yes,Yes,Yes,Yes,56,Male,High,High,Positive,182.3,89.4,26.9,Former Smoker,None,Sedentary,172,93,99.6,106,28,95,229
+Pneumonia,Yes,Yes,No,Yes,57,Male,Normal,High,Negative,173.1,97.4,32.5,Non-Smoker,None,Moderate,127,74,103.5,81,25,95,226
+Breast Cancer,No,No,Yes,No,60,Male,High,High,Negative,165.1,82.9,30.4,Former Smoker,None,Sedentary,158,104,98.6,110,14,108,264
+Coronary Artery Disease,Yes,Yes,No,No,60,Male,High,High,Negative,176.7,98.0,31.4,Current Smoker,Moderate,Moderate,167,97,103.0,109,14,97,271
+Coronary Artery Disease,Yes,Yes,No,No,60,Male,High,High,Negative,174.6,70.0,23.0,Former Smoker,Moderate,Moderate,159,106,101.6,88,18,183,279
+Hyperthyroidism,No,No,Yes,No,60,Male,Normal,Normal,Negative,168.2,59.5,21.0,Non-Smoker,None,Sedentary,110,81,97.8,96,17,83,198
+Measles,Yes,Yes,No,No,60,Female,High,Normal,Negative,163.5,65.5,24.5,Current Smoker,Moderate,Sedentary,154,98,100.9,90,20,96,174
+Measles,Yes,Yes,No,No,60,Female,High,Normal,Negative,160.3,64.8,25.2,Former Smoker,Moderate,Sedentary,178,91,99.8,89,17,109,198
+Osteoarthritis,No,Yes,No,Yes,60,Female,Normal,Normal,Negative,163.8,78.8,29.4,Non-Smoker,None,Sedentary,118,79,97.5,101,24,77,172
+Osteomyelitis,No,No,Yes,No,60,Male,Normal,Normal,Negative,178.3,58.0,18.2,Former Smoker,None,Sedentary,111,72,97.5,104,18,81,184
+Osteoporosis,Yes,No,No,No,60,Male,High,High,Negative,185.7,107.3,31.1,Current Smoker,None,Moderate,150,102,101.7,96,12,85,255
+Osteoporosis,No,Yes,No,No,60,Male,High,High,Negative,163.1,64.8,24.4,Non-Smoker,None,Moderate,149,103,98.5,63,18,75,266
+Osteoporosis,No,Yes,No,No,60,Male,High,High,Negative,190.1,84.1,23.3,Non-Smoker,Moderate,Active,157,108,97.9,75,14,78,265
+Polio,Yes,Yes,Yes,No,60,Male,Normal,Normal,Negative,157.4,51.9,21.0,Former Smoker,None,Moderate,118,78,99.8,99,20,93,189
+Asthma,Yes,Yes,Yes,Yes,60,Female,High,High,Positive,161.9,48.2,18.4,Non-Smoker,None,Sedentary,178,92,103.8,94,25,93,238
+Chronic Kidney Disease,No,No,Yes,No,60,Female,Normal,High,Positive,167.1,79.0,28.3,Current Smoker,Moderate,Sedentary,129,75,98.9,104,20,82,232
+Hemophilia,No,No,Yes,No,60,Female,Normal,Normal,Positive,165.0,68.8,25.3,Non-Smoker,None,Active,130,71,98.6,106,16,71,179
+Hepatitis B,No,Yes,Yes,No,60,Male,Normal,Low,Positive,168.0,56.0,19.8,Current Smoker,Moderate,Moderate,115,72,99.0,100,18,93,150
+Hepatitis B,No,Yes,Yes,No,60,Male,Normal,Low,Positive,171.3,58.2,19.8,Non-Smoker,None,Sedentary,125,83,98.1,84,15,79,166
+Hypertension,No,No,Yes,No,60,Female,High,Normal,Positive,159.5,60.2,23.7,Former Smoker,High,Moderate,179,91,98.9,85,18,145,196
+Hypertension,Yes,No,Yes,No,60,Male,High,Normal,Positive,168.3,89.7,31.7,Former Smoker,Moderate,Sedentary,156,98,99.8,96,12,109,192
+Hypertension,No,No,No,No,60,Female,High,High,Positive,168.9,68.4,24.0,Former Smoker,Moderate,Sedentary,151,92,97.7,60,18,93,271
+Kidney Cancer,Yes,Yes,Yes,No,60,Female,High,Normal,Positive,165.5,52.0,19.0,Former Smoker,Moderate,Sedentary,140,102,100.5,110,19,125,198
+Kidney Disease,Yes,Yes,Yes,Yes,60,Female,High,High,Positive,158.1,60.1,24.0,Non-Smoker,None,Moderate,154,94,100.4,104,24,140,239
+Osteoporosis,Yes,No,Yes,No,60,Male,High,Normal,Positive,180.2,77.6,23.9,Former Smoker,Moderate,Moderate,160,106,100.1,98,13,78,194
+Pancreatitis,Yes,Yes,Yes,No,60,Female,High,Normal,Positive,165.2,45.0,16.5,Non-Smoker,High,Sedentary,170,95,102.3,83,16,125,175
+Parkinson's Disease,Yes,Yes,No,No,60,Male,High,Normal,Positive,179.5,79.9,24.8,Non-Smoker,Moderate,Sedentary,167,110,103.0,96,17,122,200
+Parkinson's Disease,Yes,Yes,No,No,60,Male,High,Normal,Positive,178.0,76.3,24.1,Non-Smoker,Moderate,Active,157,93,102.1,88,13,137,173
+Prader-Willi Syndrome,No,No,Yes,No,60,Female,Normal,Normal,Positive,157.2,68.7,27.8,Non-Smoker,Moderate,Sedentary,112,82,97.3,110,17,173,171
+Rheumatoid Arthritis,No,No,Yes,No,60,Female,High,High,Positive,159.1,82.0,32.4,Former Smoker,None,Active,148,110,98.6,103,17,100,241
+Thyroid Cancer,No,No,Yes,No,60,Female,High,High,Positive,168.2,83.5,29.5,Current Smoker,None,Sedentary,177,101,98.3,81,12,71,251
+Tuberculosis,Yes,Yes,Yes,No,60,Female,High,High,Positive,167.3,66.9,23.9,Non-Smoker,Moderate,Moderate,173,92,101.2,87,12,95,235
+Bladder Cancer,No,No,Yes,No,65,Male,Normal,Normal,Negative,172.8,61.5,20.6,Non-Smoker,None,Sedentary,112,81,98.3,94,14,119,187
+Diabetes,No,No,Yes,No,65,Male,Normal,High,Negative,173.9,106.8,35.3,Former Smoker,Moderate,Moderate,121,84,97.5,86,14,187,224
+Otitis Media (Ear Infection),Yes,Yes,Yes,No,65,Male,Normal,Normal,Negative,183.2,84.7,25.2,Non-Smoker,High,Moderate,118,84,101.1,106,15,89,191
+Stroke,Yes,No,Yes,No,65,Female,High,Low,Negative,158.9,63.2,25.1,Non-Smoker,None,Moderate,162,97,103.6,85,13,84,165
+Stroke,Yes,No,Yes,No,65,Female,High,Low,Negative,166.8,69.3,24.9,Non-Smoker,None,Moderate,150,105,100.8,80,20,177,159
+Tourette Syndrome,No,No,Yes,No,65,Male,High,High,Negative,171.4,75.8,25.8,Former Smoker,Moderate,Sedentary,171,93,97.9,94,18,124,264
+Urinary Tract Infection (UTI),Yes,No,Yes,No,65,Male,High,Normal,Negative,171.3,71.6,24.4,Current Smoker,None,Sedentary,172,96,103.5,102,18,94,188
+Alzheimer's Disease,No,Yes,No,No,65,Male,Normal,High,Positive,181.8,75.0,22.7,Non-Smoker,Moderate,Moderate,111,77,98.4,85,17,75,242
+Alzheimer's Disease,No,Yes,No,No,65,Male,Normal,High,Positive,179.6,73.6,22.8,Non-Smoker,None,Moderate,114,76,97.1,66,14,172,253
+Alzheimer's Disease,No,No,Yes,No,65,Female,High,High,Positive,168.7,70.8,24.9,Current Smoker,Moderate,Sedentary,143,94,97.3,108,17,96,232
+Bronchitis,Yes,No,Yes,Yes,65,Male,High,High,Positive,183.4,76.8,22.8,Current Smoker,None,Sedentary,140,90,99.5,109,27,148,262
+Chronic Obstructive Pulmonary Disease (COPD),Yes,No,Yes,Yes,65,Female,High,High,Positive,163.1,59.0,22.1,Non-Smoker,Moderate,Sedentary,159,108,102.3,104,27,107,273
+Chronic Obstructive Pulmonary Disease (COPD),Yes,No,Yes,Yes,65,Female,High,High,Positive,167.8,71.6,25.4,Former Smoker,None,Moderate,168,99,101.5,96,30,94,248
+Dementia,No,No,Yes,No,65,Female,High,High,Positive,160.8,62.0,24.0,Non-Smoker,Moderate,Moderate,157,92,97.3,81,20,197,255
+Diabetes,Yes,Yes,Yes,No,65,Female,Normal,High,Positive,165.3,84.7,31.0,Non-Smoker,None,Sedentary,120,84,103.8,106,12,186,241
+Diverticulitis,No,No,Yes,No,65,Female,High,High,Positive,162.1,45.0,17.1,Former Smoker,Moderate,Active,170,100,98.1,88,12,125,271
+Liver Cancer,Yes,Yes,Yes,No,65,Female,High,High,Positive,163.7,78.7,29.4,Non-Smoker,Moderate,Sedentary,177,94,100.6,108,14,122,271
+Lung Cancer,Yes,Yes,Yes,No,65,Female,High,High,Positive,167.2,83.8,30.0,Current Smoker,None,Moderate,147,91,101.8,88,14,96,266
+Lung Cancer,Yes,No,Yes,No,65,Female,Normal,High,Positive,157.3,45.0,18.2,Non-Smoker,None,Sedentary,125,73,102.6,92,19,194,255
+Mumps,No,No,Yes,No,65,Male,Normal,High,Positive,189.7,85.1,23.6,Non-Smoker,None,Active,121,75,97.2,85,12,85,228
+Mumps,No,No,Yes,No,65,Male,Normal,High,Positive,165.0,64.0,23.5,Former Smoker,Moderate,Sedentary,110,84,97.5,85,13,107,258
+Osteoporosis,No,Yes,Yes,No,65,Female,High,High,Positive,154.5,46.2,19.4,Non-Smoker,Moderate,Moderate,143,106,98.6,99,13,99,270
+Stroke,Yes,Yes,Yes,No,65,Female,High,High,Positive,171.1,64.1,21.9,Former Smoker,None,Sedentary,144,92,101.6,99,14,164,238
+Alzheimer's Disease,Yes,No,Yes,No,70,Female,High,Normal,Negative,166.5,57.0,20.6,Non-Smoker,None,Active,150,102,102.0,100,17,96,175
+Alzheimer's Disease,Yes,No,Yes,No,70,Female,High,Normal,Negative,165.4,87.5,32.0,Non-Smoker,None,Sedentary,143,103,101.4,82,12,121,175
+Cholecystitis,No,No,Yes,No,70,Male,Normal,Normal,Negative,176.0,89.1,28.7,Non-Smoker,Moderate,Sedentary,120,85,97.1,96,13,99,189
+Chronic Obstructive Pulmonary Disease (COPD),No,Yes,Yes,Yes,70,Male,Normal,High,Negative,170.9,87.9,30.1,Current Smoker,Moderate,Sedentary,119,72,97.3,110,20,95,266
+Chronic Obstructive Pulmonary Disease (COPD),No,Yes,Yes,Yes,70,Male,Normal,High,Negative,163.8,74.8,27.9,Non-Smoker,High,Sedentary,127,75,97.9,96,24,84,234
+Osteoporosis,Yes,No,No,No,70,Male,Normal,Normal,Negative,171.6,60.3,20.5,Former Smoker,None,Sedentary,124,74,100.4,91,18,89,194
+Parkinson's Disease,No,No,Yes,No,70,Male,Normal,Normal,Negative,165.6,62.8,22.9,Non-Smoker,Moderate,Sedentary,119,74,97.1,95,19,70,189
+Prostate Cancer,Yes,Yes,No,No,70,Male,High,Normal,Negative,178.8,86.2,27.0,Former Smoker,None,Moderate,176,99,103.3,94,12,77,178
+Schizophrenia,No,Yes,Yes,No,70,Male,Normal,Normal,Negative,169.8,58.0,20.1,Non-Smoker,None,Sedentary,114,72,99.0,92,18,126,173
+Gout,Yes,No,Yes,No,70,Female,Normal,High,Positive,155.2,67.1,27.9,Former Smoker,Moderate,Moderate,115,73,103.1,102,16,79,269
+Migraine,No,No,Yes,No,70,Female,Normal,Normal,Positive,158.8,60.6,24.0,Former Smoker,Moderate,Active,127,81,98.7,80,12,90,187
+Stroke,No,Yes,No,No,70,Male,Normal,High,Positive,174.3,71.4,23.5,Former Smoker,High,Active,118,70,97.5,76,14,121,224
+Stroke,No,Yes,No,No,70,Male,Normal,High,Positive,166.5,77.2,27.8,Former Smoker,None,Moderate,122,80,98.9,62,18,82,239
+Testicular Cancer,No,No,Yes,No,70,Female,High,High,Positive,155.2,64.5,26.8,Former Smoker,None,Sedentary,156,102,97.4,105,12,114,242
+Tonsillitis,Yes,Yes,Yes,No,70,Female,High,High,Positive,162.7,62.4,23.6,Current Smoker,Moderate,Sedentary,171,105,103.8,94,18,91,230
+Williams Syndrome,No,No,Yes,No,70,Female,Normal,Normal,Positive,162.7,78.5,29.6,Non-Smoker,Moderate,Sedentary,113,74,99.0,83,16,86,174
+Stroke,Yes,No,Yes,No,80,Female,High,High,Positive,157.5,51.3,20.7,Non-Smoker,None,Moderate,176,98,102.7,83,12,170,241
+Stroke,Yes,No,Yes,No,80,Female,High,High,Positive,157.7,68.3,27.5,Former Smoker,None,Moderate,152,91,103.9,97,12,139,277
+Stroke,Yes,No,Yes,No,85,Male,High,High,Positive,172.9,81.8,27.4,Current Smoker,None,Moderate,161,110,102.1,96,12,98,223
+Stroke,Yes,No,Yes,No,85,Male,High,High,Positive,159.4,60.4,23.8,Former Smoker,Moderate,Moderate,162,108,100.7,98,20,112,248
+Stroke,Yes,No,Yes,No,90,Female,High,High,Positive,151.1,60.1,26.3,Non-Smoker,None,Moderate,142,99,101.5,90,14,90,263
+Stroke,Yes,No,Yes,No,90,Female,High,High,Positive,156.0,48.6,20.0,Non-Smoker,None,Active,173,102,102.2,99,16,97,253
